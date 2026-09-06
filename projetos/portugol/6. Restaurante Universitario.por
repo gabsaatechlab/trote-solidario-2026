@@ -1,12 +1,12 @@
 programa {
   funcao inicio() {
 
-    //Vari·veis
+    //Vari√°veis
     real pesoPrato
     real valorKg
     real totalaPagar
 
-    escreva("--- Restaurante Universit·rio ---\n")
+    escreva("--- Restaurante Universit√°rio ---\n")
 
     escreva("Digite o peso do prato (kg): ")
     leia(pesoPrato)
@@ -16,6 +16,6 @@ programa {
 
     totalaPagar = pesoPrato * valorKg // Total para pagar
 
-    escreva("\nTotal a pagar: R$ ", totalaPagar, "\n") // CÛdigo para calcular o total
+    escreva("\nTotal a pagar: R$ ", totalaPagar, "\n") // C√≥digo para calcular o total
   }
 }

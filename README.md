@@ -37,6 +37,9 @@ Este repositório representa minha evolução prática, reunindo projetos acadê
 - `styles.css` → identidade visual  
 - `projetos/trote-unifacef/` → projeto web completo  
 - `projetos/portugol/` → exercícios de lógica  
+- `projetos/portugol-arrays/` → exercícios recentes de arrays, busca e menu em Portugol
+- `projetos/javascript/vetores-objetos-matrizes/` → nova etapa de JavaScript com vetores, objetos e matrizes
+- `projetos/computacao/` → trabalhos acadêmicos de Engenharia de Software, TIC e pesquisa
 
 ---
 
@@ -90,6 +93,7 @@ Exercício final com simulação de orçamento de materiais de construção.
 - Separação de responsabilidades (HTML, CSS, JS)  
 - Construção de interfaces com foco em usabilidade  
 - Aplicação de lógica de programação em cenários reais  
+- Organização de materiais acadêmicos de computação com documentação e contexto
 - Uso do Git e GitHub para versionamento e portfólio  
 
 ---

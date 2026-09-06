@@ -17,6 +17,7 @@ A proposta desta estrutura é registrar, de maneira formal e progressiva, os con
 - `javascript.css`: identidade visual da página da trilha.
 - `while-repeticao/`: materiais da etapa de estruturas de repetição e controle de fluxo.
 - `node-introducao/`: primeiros scripts em Node.js e arquivo original da atividade em `.zip`.
+- `vetores-objetos-matrizes/`: exercícios recentes sobre vetores, objetos e matrizes.
 
 ## Etapas iniciais
 
@@ -40,6 +41,16 @@ Coleção inicial de scripts voltada para:
 - uso de `switch`;
 - organização básica de arquivos JavaScript;
 - primeiros exemplos executados em ambiente Node.js.
+
+### 3. Vetores, objetos e matrizes
+
+Nova etapa com exercícios sobre:
+
+- objetos com propriedades;
+- vetores de objetos;
+- busca, atualização e contagem;
+- matrizes com laços aninhados;
+- médias, maior valor e matriz identidade.
 
 ## Observação
 

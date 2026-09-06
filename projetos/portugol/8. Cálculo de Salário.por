@@ -8,21 +8,21 @@ programa
         real valorDesconto
         real salarioLiquido
 
-        escreva("--- Cálculo de Salário ---\n")
+        escreva("--- CÃ¡lculo de SalÃ¡rio ---\n")
 
-        escreva("Horas trabalhadas no mês: ")
+        escreva("Horas trabalhadas no mÃªs: ")
         leia(horasTrabalhadas)
 
         escreva("Valor por hora: R$ ")
         leia(valorHoras)
 
         salarioBruto = horasTrabalhadas * valorHoras // variavel = conta
-        escreva("Salário bruto: R$ ", salarioBruto, "\n")
+        escreva("SalÃ¡rio bruto: R$ ", salarioBruto, "\n")
 
         valorDesconto = salarioBruto * 0.075 // variavel = conta
         escreva("Desconto (7,5%): R$ ", valorDesconto, "\n")
 
         salarioLiquido = salarioBruto - valorDesconto // variavel = conta 
-        escreva("Salário líquido: R$ ", salarioLiquido, "\n")
+        escreva("SalÃ¡rio lÃ­quido: R$ ", salarioLiquido, "\n")
     }
 }

@@ -1,22 +1,22 @@
 programa {
   funcao inicio() {
     
-    //Vari·veis
+    //Vari√°veis
     real distanciaPercorrida
     real combustivelGasto
     real consumoMedio
 
-    escreva("--- Consumo de CombustÌvel ---\n ")
+    escreva("--- Consumo de Combust√≠vel ---\n ")
 
-    escreva("Digite a dist‚ncia percorrida (km): ")
+    escreva("Digite a dist√¢ncia percorrida (km): ")
     leia(distanciaPercorrida)
 
-    escreva("Digite o gasto do combustÌvel (em litros): ")
+    escreva("Digite o gasto do combust√≠vel (em litros): ")
     leia(combustivelGasto)
 
-    consumoMedio = distanciaPercorrida / combustivelGasto // DeclaraÁ„o da vari·vel 
+    consumoMedio = distanciaPercorrida / combustivelGasto // Declara√ß√£o da vari√°vel
 
-    escreva("--- Consumo MÈdio (km/litro) ---\n", consumoMedio)
+    escreva("--- Consumo M√©dio (km/litro) ---\n", consumoMedio)
     
   }
 }

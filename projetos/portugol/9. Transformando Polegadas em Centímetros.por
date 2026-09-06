@@ -10,6 +10,6 @@ programa
 
         centimetros = polegadas * 2.54
 
-        escreva("Equivale a ", centimetros, " centímetros.")
+        escreva("Equivale a ", centimetros, " centÃ­metros.")
     }
 }

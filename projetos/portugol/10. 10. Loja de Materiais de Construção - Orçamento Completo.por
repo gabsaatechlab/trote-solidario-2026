@@ -4,7 +4,7 @@ programa
 
     funcao inicio()
     {
-        // ------- DeclaraÁ„o de vari·veis ---------
+        // ------- Declara√ß√£o de vari√°veis ---------
         cadeia nomeCliente
         inteiro qtdAzulejosInt, qtdRodapesInt
 
@@ -22,7 +22,7 @@ programa
         real subtotal, totalComAcrescimo, parcela, valorAVista
 
         // ---- Entrada de dados ------
-        escreva("--- OR«AMENTO DE REFORMA ---\n")
+        escreva("--- OR√áAMENTO DE REFORMA ---\n")
 
         escreva("Nome do cliente: ")
         leia(nomeCliente)
@@ -51,24 +51,24 @@ programa
         escreva("Altura  (m): ")
         leia(alt4)
 
-        escreva("\n-- PreÁos --\n")
-        escreva("PreÁo do m≤ do azulejo (R$): ")
+        escreva("\n-- Pre√ßos --\n")
+        escreva("Pre√ßo do m¬≤ do azulejo (R$): ")
         leia(precoAzulejo)
-        escreva("PreÁo do metro linear do rodapÈ (R$): ")
+        escreva("Pre√ßo do metro linear do rodap√© (R$): ")
         leia(precoRodape)
-        escreva("PreÁo da hora do pedreiro (R$): ")
+        escreva("Pre√ßo da hora do pedreiro (R$): ")
         leia(precoHora)
-        escreva("Percentual de acrÈscimo para dias chuvosos (%): ")
+        escreva("Percentual de acr√©scimo para dias chuvosos (%): ")
         leia(percChuva)
 
-        // --- C·lculo das ·reas ---
+        // --- C√°lculo das √°reas ---
         area1 = larg1 * alt1
         area2 = larg2 * alt2
         area3 = larg3 * alt3
         area4 = larg4 * alt4
         areaTotal = area1 + area2 + area3 + area4
 
-        // --- C·lculo dos perÌmetros ----
+        // --- C√°lculo dos per√≠metros ----
         perim1 = 2.0 * (larg1 + alt1)
         perim2 = 2.0 * (larg2 + alt2)
         perim3 = 2.0 * (larg3 + alt3)
@@ -76,16 +76,16 @@ programa
         perimetroTotal = perim1 + perim2 + perim3 + perim4
 
         // ---- Quantidade de azulejos ----
-        // (areaTotal ◊ 1,10) ˜ 0,36 ---- cada azulejo = 0,36 m≤, +10% de perda
+        // (areaTotal √ó 1,10) √∑ 0,36 ---- cada azulejo = 0,36 m¬≤, +10% de perda
         qtdAzulejos    = ((areaTotal / 0.36) * 1.10) + 0.4999
         qtdAzulejosInt = Matematica.arredondar(qtdAzulejos, 0)
 
-        // ---- Quantidade de rodapÈs ----
-        // (perimetroTotal ◊ 1,05) ˜ 2,5 ? cada peÁa = 2,5 m, +5% de perda
+        // ---- Quantidade de rodap√©s ----
+        // (perimetroTotal √ó 1,05) √∑ 2,5 ? cada pe√ßa = 2,5 m, +5% de perda
         qtdRodapes    = ((perimetroTotal / 2.5) * 1.05) + 0.4999
         qtdRodapesInt = Matematica.arredondar(qtdRodapes, 0)
 
-        // ---- C·lculo dos custos ----
+        // ---- C√°lculo dos custos ----
         custoAzulejos  = qtdAzulejosInt * precoAzulejo * 0.36
         custoRodapes   = qtdRodapesInt  * precoRodape  * 2.5
 
@@ -94,37 +94,37 @@ programa
 
         acrescimoChuva = (custoMaoDeObra * percChuva) / 100.0
 
-        // ---- C·lculo Total ----
+        // ---- C√°lculo Total ----
         subtotal          = custoAzulejos + custoRodapes + custoMaoDeObra
         totalComAcrescimo = subtotal + acrescimoChuva
         parcela           = totalComAcrescimo / 5.0
         valorAVista       = totalComAcrescimo * 0.93
 
-        // --- Resumo completo do orÁamento do cliente ---
+        // --- Resumo completo do or√ßamento do cliente ---
         escreva("\n")
         escreva("-------------------------------------------------------\n")
-        escreva("        RESUMO DO OR«AMENTO\n")
+        escreva("        RESUMO DO OR√áAMENTO\n")
         escreva("-------------------------------------------------------\n")
         escreva("Cliente          : ", nomeCliente, "\n")
-        escreva("Data do orÁamento: 15/03/2026\n")
+        escreva("Data do or√ßamento: 15/03/2026\n")
         escreva("--------------------------------------------\n")
-        escreva("¡rea total a revestir  : ", areaTotal,      " m≤\n")
-        escreva("PerÌmetro total        : ", perimetroTotal, " m\n")
+        escreva("√Årea total a revestir  : ", areaTotal,      " m¬≤\n")
+        escreva("Per√≠metro total        : ", perimetroTotal, " m\n")
         escreva("--------------------------------------------\n")
         escreva("Qtd. de azulejos       : ", qtdAzulejosInt, " unidades\n")
-        escreva("Qtd. de rodapÈs        : ", qtdRodapesInt,  " peÁas\n")
+        escreva("Qtd. de rodap√©s        : ", qtdRodapesInt,  " pe√ßas\n")
         escreva("--------------------------------------------\n")
         escreva("Custo com azulejos     : R$ ", custoAzulejos,  "\n")
-        escreva("Custo com rodapÈs      : R$ ", custoRodapes,   "\n")
+        escreva("Custo com rodap√©s      : R$ ", custoRodapes,   "\n")
         escreva("Horas de trabalho      : ",    horasTrabalho,  " h\n")
-        escreva("Custo com m„o de obra  : R$ ", custoMaoDeObra, "\n")
-        escreva("AcrÈscimo (chuva)      : R$ ", acrescimoChuva, "\n")
+        escreva("Custo com m√£o de obra  : R$ ", custoMaoDeObra, "\n")
+        escreva("Acr√©scimo (chuva)      : R$ ", acrescimoChuva, "\n")
         escreva("--------------------------------------------\n")
         escreva("Subtotal               : R$ ", subtotal,          "\n")
-        escreva("Total com acrÈscimo    : R$ ", totalComAcrescimo,  "\n")
+        escreva("Total com acr√©scimo    : R$ ", totalComAcrescimo,  "\n")
         escreva("--------------------------------------------\n")
         escreva("Parcelado (5x)         : R$ ", parcela,     " / parcela\n")
-        escreva("¿ vista (7% desconto)  : R$ ", valorAVista, "\n")
+        escreva("√Ä vista (7% desconto)  : R$ ", valorAVista, "\n")
         escreva("============================================\n")
     }
 }

@@ -4,7 +4,7 @@ programa
     {
         real nota1, nota2, nota3, mediaFinal
 
-        escreva("=== CALCULADORA DE MÉDIA  ===\n")
+        escreva("=== CALCULADORA DE MÃ‰DIA  ===\n")
 
         escreva("Digite a Nota 1 (peso 2): ")
         leia(nota1)
@@ -21,7 +21,7 @@ programa
         escreva("Nota 1: ", nota1, " | Peso: 2\n")
         escreva("Nota 2: ", nota2, " | Peso: 3\n")
         escreva("Nota 3: ", nota3, " | Peso: 5\n")
-        escreva("\nMédia Final: ", mediaFinal, "\n")
+        escreva("\nMÃ©dia Final: ", mediaFinal, "\n")
 
         se (mediaFinal >= 6.0)
         {

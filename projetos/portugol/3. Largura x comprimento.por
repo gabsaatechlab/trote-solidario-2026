@@ -7,7 +7,7 @@ programa
         real area
         real perimetro
 
-        escreva("--- Calculadora de Área e Perímetro ---\n")
+        escreva("--- Calculadora de Ãrea e PerÃ­metro ---\n")
 
         escreva("Digite a largura do terreno (m): ")
         leia(largura)
@@ -19,7 +19,7 @@ programa
         perimetro = 2 * (largura + comprimento)
 
         escreva("\n--- Resultados ---\n")
-        escreva("Área: ", area, " m²\n")
-        escreva("Perímetro: ", perimetro, " m\n")
+        escreva("Ãrea: ", area, " mÂ²\n")
+        escreva("PerÃ­metro: ", perimetro, " m\n")
     }
 }
